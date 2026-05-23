@@ -9,18 +9,11 @@ enabled = true
 [[d1_databases]]
 binding = "db"
 database_name = "db"
-database_id = "ISI_ID_D1_NANTI"
+database_id = "01a582c4-87b8-4a1d-a6e6-cba7511af62c"
 
 [[kv_namespaces]]
 binding = "kv"
 id = "6dee9e240dc54e8ea16c163eae69b59f"
-
-#[[r2_buckets]]
-#binding = "r2"
-#bucket_name = ""
-
-#[[send_email]]
-#name = "email"
 
 [ai]
 binding = "ai"
@@ -35,9 +28,6 @@ run_worker_first = true
 crons = ["*/30 * * * *", "0 16 * * *"]
 
 [vars]
-#ai_model = ""
-#analysis_cache = false
-#orm_log = false
 domain = ["garokvpn.my.id"]
 admin = "admin@garokvpn.my.id"
 jwt_secret = "GarokSecretKey2026"
